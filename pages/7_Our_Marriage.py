@@ -34,11 +34,6 @@ with col2:
     st.image("images/marriage.png", caption="The happiest day of our life 💓", width=500)
 
 # --- QR Code (centered) ---
-st.markdown("### Scan the QR code to relive our wedding day 💌")
-
-col4, col5, col6 = st.columns([1,2,1])
-with col5:
-    st.image("images/marriage_qr.png", caption="🔑 A token of our eternal love 💖", width=200)
 
 # --- Navigation Buttons ---
 col1, col2 = st.columns(2)
