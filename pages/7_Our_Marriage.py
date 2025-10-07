@@ -1,7 +1,16 @@
 import streamlit as st
 
 st.set_page_config(page_title="Our Marriage – 23rd May 💍", layout="centered")
-
+st.markdown("""
+<style>
+/* Hide Streamlit menu (top-right hamburger) */
+#MainMenu {visibility: hidden;}
+/* Hide Streamlit footer */
+footer {visibility: hidden;}
+/* Hide sidebar (if any) */
+[aria-label="Sidebar"] {display: none;}
+</style>
+""", unsafe_allow_html=True)
 # --- Custom Style ---
 st.markdown("""
 <style>
