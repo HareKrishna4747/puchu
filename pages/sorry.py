@@ -1,7 +1,18 @@
 import streamlit as st
 
 st.set_page_config(page_title="Prerna, Please… 💔", layout="centered")
+st.markdown("""
+<style>
+/* Hide Streamlit top-right hamburger menu */
+#MainMenu {visibility: hidden;}
 
+/* Hide Streamlit footer */
+footer {visibility: hidden;}
+
+/* Hide sidebar if exists */
+[aria-label="Sidebar"] {display: none;}
+</style>
+""", unsafe_allow_html=True)
 # --- Custom Style ---
 st.markdown("""
 <style>
