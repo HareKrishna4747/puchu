@@ -29,10 +29,9 @@ st.subheader("A heartfelt plea from me to you")
 st.write("""
 Prerna,  
 pls, I'm sorry.  
-Nahi ho raha. Pls kalesh band kar de.  
-Pls band karde.  
-I'm yours and you are mine.  
-Main bheekh mangta hu, pls band karde yaar… 💔  
+Bheekh managat hu. Jaisa Bhi hu tera hu.
+Pls shaant ho jaa. Mian tera Jayu hu, sirf tera.
+Pls puchu babygurl shaant ho jaa 💔  
 
 I just want us to be okay again.  
 """)
